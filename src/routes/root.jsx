@@ -15,7 +15,11 @@ export default function Root() {
     return (
       <>
         <div id="sidebar">
-          <h1>Contact Tracker App</h1>
+            <h1>
+                <NavLink to="/" >
+                 Contact Tracker App
+                </NavLink>
+            </h1>
           <div>
             <form id="search-form" role="search">
               <input
